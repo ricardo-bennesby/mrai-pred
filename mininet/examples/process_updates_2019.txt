@@ -1,0 +1,274 @@
+Sun, 03 Nov 2019 03:27:09 | INFO     | 26898  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 47065 ] 
+Sun, 03 Nov 2019 03:27:09 | INFO     | 26898  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 47065 ]
+Sun, 03 Nov 2019 03:27:09 | INFO     | 26898  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 03:27:09 | INFO     | 26898  | reactor       | Updated peers dynamic routes successfully
+Sun, 03 Nov 2019 03:27:09 | INFO     | 26898  | network       | Peer  100.78.128.110 ASN 65008   connection to peer failed
+Sun, 03 Nov 2019 03:27:14 | INFO     | 26898  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 ] 
+Sun, 03 Nov 2019 03:27:14 | INFO     | 26898  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 ]
+Sun, 03 Nov 2019 03:27:14 | INFO     | 26898  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 03:27:14 | INFO     | 26898  | reactor       | Updated peers dynamic routes successfully
+
+
+.................................
+mrai: 1
+OMP: Info #250: KMP_AFFINITY: pid 28997 tid 29043 thread 1 bound to OS proc set 0
+convergence time prediction:
+[0.19549923]
+471
+.................................
+mrai: 5
+convergence time prediction:
+[0.18766598]
+467
+.................................
+mrai: 15
+convergence time prediction:
+[0.208972]
+478
+.................................
+mrai: 30
+convergence time prediction:
+[0.19700266]
+472
+
+
+*********************
+Chosen MRAI:
+5
+Predicted Convergence Time:
+467
+*********************
+.........
+waiting for a connection
+connected
+sending data to exabgp router
+Sending message after adaptive mrai
+.........
+
+
+
+
+Sun, 03 Nov 2019 08:53:32 | INFO     | 24481  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 47065 ] 
+Sun, 03 Nov 2019 08:53:32 | INFO     | 24481  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 47065 ]
+Sun, 03 Nov 2019 08:53:32 | INFO     | 24481  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 08:53:32 | INFO     | 24481  | reactor       | Updated peers dynamic routes successfully
+Sun, 03 Nov 2019 08:53:33 | INFO     | 24481  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 ] 
+Sun, 03 Nov 2019 08:53:33 | INFO     | 24481  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 ]
+Sun, 03 Nov 2019 08:53:33 | INFO     | 24481  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 08:53:33 | INFO     | 24481  | reactor       | Updated peers dynamic routes successfully
+
+
+.................................
+mrai: 1
+OMP: Info #250: KMP_AFFINITY: pid 23610 tid 24803 thread 1 bound to OS proc set 0
+convergence time prediction:
+[0.02188701]
+382
+.................................
+mrai: 5
+convergence time prediction:
+[0.04188893]
+392
+.................................
+mrai: 15
+convergence time prediction:
+[0.20383321]
+475
+.................................
+mrai: 30
+convergence time prediction:
+[0.37315166]
+562
+
+
+*********************
+Chosen MRAI:
+1
+Predicted Convergence Time:
+382
+*********************
+.........
+
+
+
+.................................
+mrai: 1
+OMP: Info #250: KMP_AFFINITY: pid 26150 tid 26169 thread 1 bound to OS proc set 0
+convergence time prediction:
+[0.16358398]
+455
+.................................
+mrai: 5
+OMP: Info #250: KMP_AFFINITY: pid 26150 tid 26170 thread 2 bound to OS proc set 0
+convergence time prediction:
+[0.15495631]
+450
+.................................
+mrai: 15
+convergence time prediction:
+[0.17424347]
+460
+.................................
+mrai: 30
+convergence time prediction:
+[0.1618385]
+454
+
+
+*********************
+Chosen MRAI:
+5
+Predicted Convergence Time:
+450
+*********************
+.........
+
+
+
+Sun, 03 Nov 2019 11:34:44 | INFO     | 26872  | network       | Connected to peer neighbor 100.78.128.110 local-ip 100.78.128.5 local-as 47065 peer-as 65008 router-id 100.78.128.5 family-allowed in-open (in)
+Sun, 03 Nov 2019 11:35:05 | INFO     | 26872  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 47065 ] 
+Sun, 03 Nov 2019 11:35:05 | INFO     | 26872  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 47065 ]
+Sun, 03 Nov 2019 11:35:05 | INFO     | 26872  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 11:35:05 | INFO     | 26872  | reactor       | Updated peers dynamic routes successfully
+Sun, 03 Nov 2019 11:35:18 | INFO     | 26872  | network       | Peer  100.78.128.110 ASN 65008   connection to peer failed
+Sun, 03 Nov 2019 11:35:35 | INFO     | 26872  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 ] 
+Sun, 03 Nov 2019 11:35:35 | INFO     | 26872  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 ]
+Sun, 03 Nov 2019 11:35:35 | INFO     | 26872  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 11:35:35 | INFO     | 26872  | reactor       | Updated peers dynamic routes successfully
+
+.................................
+mrai: 1
+OMP: Info #250: KMP_AFFINITY: pid 27127 tid 27155 thread 1 bound to OS proc set 0
+convergence time prediction:
+[0.4583031]
+606
+.................................
+mrai: 5
+OMP: Info #250: KMP_AFFINITY: pid 27127 tid 27154 thread 2 bound to OS proc set 0
+convergence time prediction:
+[0.37949336]
+566
+.................................
+mrai: 15
+convergence time prediction:
+[0.1825757]
+464
+.................................
+mrai: 30
+convergence time prediction:
+[0.10013407]
+422
+
+
+*********************
+Chosen MRAI:
+30
+Predicted Convergence Time:
+422
+*********************
+.........
+waiting for a connection
+connected
+sending data to exabgp router
+Sending message after adaptive mrai
+.........
+
+
+
+Sun, 03 Nov 2019 12:47:32 | INFO     | 27782  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 47065 47065 ] 
+Sun, 03 Nov 2019 12:47:32 | INFO     | 27782  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 47065 47065 ]
+Sun, 03 Nov 2019 12:47:33 | INFO     | 27782  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 12:47:33 | INFO     | 27782  | reactor       | Updated peers dynamic routes successfully
+Sun, 03 Nov 2019 12:47:33 | INFO     | 27782  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 47065 ] 
+Sun, 03 Nov 2019 12:47:33 | INFO     | 27782  | processes     | Command from process announce-routes :  
+Sun, 03 Nov 2019 12:47:33 | WARNING  | 27782  | reactor       | Command from process not understood : 
+Sun, 03 Nov 2019 12:47:33 | INFO     | 27782  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.5 local-as 47065 peer-as 47065 router-id 100.78.128.5 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.5 origin egp as-path [ 47065 47065 47065 ]
+Sun, 03 Nov 2019 12:47:34 | INFO     | 27782  | reactor       | Performing dynamic route update
+Sun, 03 Nov 2019 12:47:34 | INFO     | 27782  | reactor       | Updated peers dynamic routes successfully
+
+
+.................................
+mrai: 1
+OMP: Info #250: KMP_AFFINITY: pid 27975 tid 28000 thread 1 bound to OS proc set 0
+convergence time prediction:
+[-0.]
+371
+.................................
+mrai: 5
+convergence time prediction:
+[-0.]
+371
+.................................
+mrai: 15
+OMP: Info #250: KMP_AFFINITY: pid 27975 tid 27999 thread 2 bound to OS proc set 0
+convergence time prediction:
+[-0.]
+371
+.................................
+mrai: 30
+convergence time prediction:
+[0.05257104]
+398
+
+
+*********************
+Chosen MRAI:
+1
+Predicted Convergence Time:
+371
+*********************
+.........
+waiting for a connection
+connected
+sending data to exabgp router
+Sending message after adaptive mrai
+
+
+
+
+Mon, 04 Nov 2019 01:20:29 | INFO     | 31968  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 47065 ] 
+Mon, 04 Nov 2019 01:20:29 | INFO     | 31968  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.7 local-as 47065 peer-as 47065 router-id 100.78.128.7 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.7 origin egp as-path [ 47065 47065 47065 ]
+Mon, 04 Nov 2019 01:20:29 | INFO     | 31968  | reactor       | Performing dynamic route update
+Mon, 04 Nov 2019 01:20:29 | INFO     | 31968  | reactor       | Updated peers dynamic routes successfully
+Mon, 04 Nov 2019 01:20:44 | INFO     | 31968  | processes     | Command from process announce-routes : neighbor 100.78.128.1 announce route 184.164.227.0/24 next-hop self origin egp as-path [ 47065 47065 ] 
+Mon, 04 Nov 2019 01:20:44 | INFO     | 31968  | reactor       | Route added to neighbor 100.78.128.1 local-ip 100.78.128.7 local-as 47065 peer-as 47065 router-id 100.78.128.7 family-allowed in-open : 184.164.227.0/24 next-hop 100.78.128.7 origin egp as-path [ 47065 47065 ]
+Mon, 04 Nov 2019 01:20:44 | INFO     | 31968  | reactor       | Performing dynamic route update
+Mon, 04 Nov 2019 01:20:44 | INFO     | 31968  | reactor       | Updated peers dynamic routes successfully
+
+.................................
+mrai: 1
+OMP: Info #250: KMP_AFFINITY: pid 32244 tid 32262 thread 1 bound to OS proc set 0
+convergence time prediction:
+[0.2595591]
+504
+.................................
+mrai: 5
+convergence time prediction:
+[0.23743866]
+493
+.................................
+mrai: 15
+OMP: Info #250: KMP_AFFINITY: pid 32244 tid 32261 thread 2 bound to OS proc set 0
+convergence time prediction:
+[0.19697207]
+472
+.................................
+mrai: 30
+convergence time prediction:
+[0.35730946]
+554
+
+
+*********************
+Chosen MRAI:
+15
+Predicted Convergence Time:
+472
+*********************
+.........
+waiting for a connection
+connected
+sending data to exabgp router
+Sending message after adaptive mrai
+.........
+
