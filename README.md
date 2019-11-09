@@ -1,6 +1,6 @@
 # MRAI-pred Framework
 
-MRAI-pred, to the best of my knowledge, is the first hybrid framework endowed with a learning mechanism that integrates the SDN paradigm within interdomain routing domains to improve the interdomain routing convergence time. This is achieved by  employing the LSTM learning technique that allows the tuning of MRAI value aiming to reduce the convergence time according to learned patterns from collected BGP UPDATE features.
+MRAI-pred, to the best of our knowledge, is the first hybrid framework endowed with a learning mechanism that integrates the SDN paradigm within interdomain routing domains to improve the interdomain routing convergence time. This is achieved by  employing the LSTM learning technique that allows the tuning of MRAI value aiming to reduce the convergence time according to learned patterns from collected BGP UPDATE features.
 
 ## Getting Started
 
@@ -15,26 +15,6 @@ The software tools you should install as a prerequisite to the MRAI-pred Framewo
 * [Ryu Controller](https://osrg.github.io/ryu/)
 * [Mininet](http://mininet.org/download/)
 * [PEERING](https://peering.usc.edu/)
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -56,12 +36,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Authors
 
 * **Ricardo Bennesby** - [Scholar](https://scholar.google.com.br/citations?user=WZtAvu8AAAAJ&hl=pt-BR/)
@@ -71,7 +45,5 @@ Give an example
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* We would like to thank the PEERING team for all suport and for the platform provided to our experiments. 
 
