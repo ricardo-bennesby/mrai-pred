@@ -4,17 +4,21 @@ MRAI-pred, to the best of our knowledge, is the first hybrid framework endowed w
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To deploy and use the MRAI-pred framework, you should first submit an experiment proposal to the PEERING team to be able to send announcements to the Internet and install the required tools listed as prerequisites: 
 
 ### Prerequisites
 
 The software tools you should install as a prerequisite to the MRAI-pred Framework:
 
+* [PEERING](https://peering.usc.edu/)
 * [Keras with Tensorflow backend](https://www.pyimagesearch.com/2016/11/14/installing-keras-with-tensorflow-backend/)
 * [ExaBGP](https://github.com/Exa-Networks/exabgp)
 * [Ryu Controller](https://osrg.github.io/ryu/)
 * [Mininet](http://mininet.org/download/)
-* [PEERING](https://peering.usc.edu/)
+
+### Configuring connection between SDN experiment with the PEERING MUXes
+After the PEERING experiment approval, you will receive the certificate .key and .crt files that show be placed in the certs file. Then, clone the [PEERING](https://github.com/PEERINGTestbed/client#peering-account-setup) repository and follow the described steps to configure OpenVPN and learn how to use PEERING.  
+
 
 ## Running the tests
 
@@ -42,6 +46,12 @@ Give an example
 * **Edjard Mota** - [Scholar](https://scholar.google.com.br/citations?user=7WhE5ucAAAAJ&hl=pt-BR)
 * **Paulo Fonseca** - [Scholar](https://scholar.google.com.br/citations?user=e-w1zY4AAAAJ&hl=pt-BR)
 * **Alexandre Passito** 
+
+## References
+
+- [PEERING testbed paper](http://conferences.sigcomm.org/hotnets/2014/papers/hotnets-XIII-final159.pdf): Understand the PEEERING platform and how it can provide real interdomain peering and connectivity with the Internet for emulated intradomain experiments.
+
+- [BGP Routing Convergence survey](https://ieeexplore.ieee.org/document/7964680): A survey on the issues and the state-of-the-art efforts to address the BGP routing convergence delay problem. 
 
 ## Acknowledgments
 
