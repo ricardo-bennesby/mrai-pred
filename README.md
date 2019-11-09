@@ -20,26 +20,6 @@ The software tools you should install as a prerequisite to the MRAI-pred Framewo
 After the PEERING experiment approval, you will receive the certificate .key and .crt files that show be placed in the certs file. Then, clone the [PEERING](https://github.com/PEERINGTestbed/client#peering-account-setup) repository and follow the described steps to configure OpenVPN and learn how to use PEERING.  
 
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Authors
 
 * **Ricardo Bennesby** - [Scholar](https://scholar.google.com.br/citations?user=WZtAvu8AAAAJ&hl=pt-BR/)
