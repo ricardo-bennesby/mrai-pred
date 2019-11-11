@@ -68,5 +68,5 @@ $ python tcp_socket_server.py
 
 ## Acknowledgments
 
-* We would like to thank prof. [Italo Cunha](https://scholar.google.com.br/citations?user=bTAky1EAAAAJ&hl=pt-BR) and the PEERING team for all the suport provided to our experiments. 
+* We would like to give special thanks to prof. [Italo Cunha](https://scholar.google.com.br/citations?user=bTAky1EAAAAJ&hl=pt-BR) and the PEERING team for all the suport provided to our experiments. 
 
