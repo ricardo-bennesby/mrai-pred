@@ -19,6 +19,39 @@ The software tools you should install as a prerequisite to the MRAI-pred Framewo
 ### Configuring connection between SDN experiment with the PEERING MUXes
 After the PEERING experiment approval, you will receive the certificate .key and .crt files that show be placed in the certs file. Then, clone the [PEERING](https://github.com/PEERINGTestbed/client#peering-account-setup) repository and follow the described steps to configure OpenVPN and learn how to use PEERING.  
 
+To list the PEERING MUXes and their status do:
+
+```console
+$ cd client
+$ sudo ./peering openvpn status
+```
+
+To open up the connection with a PEERING MUX, you should do:
+
+```console
+$ sudo ./peering openvpn up neu01
+```
+
+To run ryu, opens a new terminal or new tab in console and run the command:
+
+```console
+$ cd ~/ryu
+$ ryu-manager --verbose ryu/app/backup/simple_switch_13_mrai.py
+```
+
+To run mininet with the configured script, opens up a new termonal or new tabs and do:
+
+```console
+$ cd ~/mininet/examples
+$ sudo python new_int_mn_peering.py "0"
+```
+
+Then, a third terminal should be opened to run the script that loads the weights of trained model and that is responsible for sending the messages to ExaBGP:
+
+```console
+$ python tcp_socket_server.py
+```
+
 
 ## Authors
 
